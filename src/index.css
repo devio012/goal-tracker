@@ -1,0 +1,120 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #fff;
+}
+
+.header {
+  width: 100vw;
+  height: 90px;
+  background-color: #000080;
+  text-align: center;
+  padding: 20px 0 20px 0;
+  color: #fff;
+  box-shadow: 2px 2px rgba(0, 0, 0, 0.7);
+}
+.form-container {
+  width: 100vw;
+  background-image: linear-gradient(to bottom right, #ffe3af, #fffeb9);
+  height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.form {
+  width: 400px;
+  height: 100px;
+  background-image: linear-gradient(to bottom right, #1c1855, #0a3864);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  /* opacity:0.7; */
+  /* A2D2FF,BDE0FE ,#FFC8DD*/
+}
+input[type="text"] {
+  padding: 10px;
+  border: none;
+  border-radius: 10px;
+  width: 60%;
+  color: #000;
+}
+.add-btn {
+  background-color: #31c5ff;
+  border: none;
+  padding: 10px 20px;
+  margin-left: 10px;
+  border-radius: 10px;
+  box-shadow: 1px 1px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+}
+/*for reference*/
+/* .progress-container{
+  width: 350px;
+  height: calc(100%-390px);
+  max-height: 40vh;
+  background-image: linear-gradient(to bottom right, #1c1855, #0a3864);
+  margin: 20px;
+  border-radius: 10px;
+  box-shadow: 2px 2px rgba(0, 0, 0, 0.1);
+  overflow-y: auto;
+} */
+.progress-container,.completed-container{
+  width: 350px;
+  height:300px;
+  max-height: 40vh;
+  background-image: linear-gradient(to bottom right, #1c1855, #0a3864);
+  margin: 20px;
+  border-radius: 10px;
+  box-shadow: 2px 2px rgba(0, 0, 0, 0.1);
+  overflow-y: auto;
+}
+.goal-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  margin-top: 30px;
+}
+
+ul {
+  list-style-type: none;
+}
+ul li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.goal-name {
+  margin: 20px;
+  font-weight: bold;
+}
+
+.progress-heading,.completed-heading {
+  text-align: center;
+  margin: 20px;
+}
+.btn {
+  background-color: transparent;
+  border: none;
+  font-size: 20px;
+  cursor: pointer;
+}
+.btn-container{
+  display:flex;
+  justify-content: space-between;
+  width:50px;
+}
+input[type="checkbox"]{
+  cursor:pointer;
+}
+::-webkit-scrollbar {
+  background: #d6d6d6;
+  width: 12px;
+}
+::-webkit-scrollbar-thumb {
+  background: #b9b9b9;
+  border-radius: 10px;
+}
